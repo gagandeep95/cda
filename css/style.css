@@ -1,0 +1,129 @@
+.row{ 
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    /* padding: 0px 0px; */
+    transition: top 0.8s;
+  }
+  .navbar-expand-md{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  }
+  #logo{
+      padding:10px;
+  }
+  .nav-link{
+    color: #000;
+    padding:15px!important;
+  }
+  .nav-link:hover{
+      color:#000;
+  }
+  .nav-item{
+     margin:0px 10px; 
+  }
+  .navbar-toggler{
+	background-color: #000;
+    padding:3px!important;
+    margin-right:10px;
+}
+.custom-toggler.navbar-toggler {
+    border-color: #000;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.container-fluid{
+    margin:100px 0px 0px 0px!important;
+    padding:0px!important;
+}
+
+.content{
+    margin:50px 30px;
+}
+.content > ul >li >a{
+color:orangered;
+}
+
+
+                                                          /* CONTACT PAGE CSS START */
+input{
+  background-color: lightgrey;
+  color:black;
+  border:none;
+  margin:10px 0px;
+  padding: 8px;
+}
+textarea{
+    background-color: lightgrey;
+    color:black;
+    border:none;
+    margin:10px 0px;
+  }
+  .submitClass button{
+    background-color: lightgrey;
+    font-size: 13px;
+    border:none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1A237E;
+    color:#fff;
+    padding:20px 30px 0px 30px;
+}
+footer .copyright a{
+    color:orangered;
+}
+footer .social a{
+    float:right;margin-left:20px;
+}
+footer .social a i{
+    font-size:26px;
+    color:#fff;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+      padding: 0px;
+    }
+    .nav-link{
+        width: 100%;
+        /* padding:15px!important; */
+        text-align: center;
+    }
+    footer .social a{
+    float:left;
+    }
+  }
+  
+  

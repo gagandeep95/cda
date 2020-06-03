@@ -1,0 +1,25 @@
+.row{
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+.admin-form{
+    margin:150px 20px 0px 20px;
+    padding:50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+.imageSection{
+    padding:50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+.metaSection{
+    padding:50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+.contentSection{
+    padding:50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.analyticSection{
+    padding:50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
